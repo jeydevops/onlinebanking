@@ -163,6 +163,16 @@
     		</pluginManagement>
 		<finalName>onlinebanking</finalName>
 	</build>
+	<distributionManagement>
+		<repository> 
+		<id>nexus</id>		
+			<url>http://repo.cogdevops.com/repository/nexusiqrepo/</url> 
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://repo.cogdevops.com/repository/nexusiqrepo/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<profiles>
         <profile>
                 <id>tomcatDeployment</id>
