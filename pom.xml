@@ -13,6 +13,20 @@
 		<sonar.language>java</sonar.language>
 	</properties>
 	
+	<repositories>
+	  <repository>
+	<id>NexusDevOpsMaven</id>
+	<url>http://repo.cogdevops.com/repository/testnexusiq/</url>
+	</repository>
+	</repositories>
+
+	<pluginRepositories>
+	<pluginRepository>
+	<id>NexusDevOpsMaven</id>
+	<url>http://repo.cogdevops.com/repository/testnexusiq/</url>
+	</pluginRepository>
+	</pluginRepositories>
+	
 	<dependencies>
 		<!--Check Nexus IQ-->
 		<dependency>
