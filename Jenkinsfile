@@ -34,8 +34,7 @@ node {
           artifactName="target/${projectName}.${packaging}"
           
           sh "mvn deploy:deploy-file -DgroupId=${groupId} -DartifactId=${artifactId} -Dpackaging=${packaging} -Dversion=${version} -DgeneratePom=true -Dfile=${artifactName}"
-   }
-  
+   }  
    stage ('Banking_tomcatDeployment') {
     sh 'mvn -P tomcatDeployment tomcat7:redeploy -DskipTests'
    }   
