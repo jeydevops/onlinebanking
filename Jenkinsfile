@@ -1,6 +1,6 @@
 node {
   stage ('Banking_Checkout') {
-   //If some other Repository is to be given apart from current repo, provide git URL as below.test webhook trigger. commit for HL. just git
+   //If some other Repository is to be given apart from current repo, provide git URL as below.test webhook trigger. commit for HL. just git...
     checkout scm
   }
    stage ('Banking_Build') {
