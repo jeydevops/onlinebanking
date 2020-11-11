@@ -5,7 +5,7 @@
 	<groupId>com.cts.devops</groupId>
 	<artifactId>onlinebanking</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.6</version>
+	<version>1.0.7</version>
 	<name>OnlineBanking Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
