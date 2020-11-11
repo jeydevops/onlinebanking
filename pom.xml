@@ -169,7 +169,7 @@
 
       			</plugins>
     		</pluginManagement>
-		<finalName>onlinebanking</finalName>
+		<!--<finalName>onlinebanking</finalName>-->
 	</build>
 	
 	<distributionManagement>
